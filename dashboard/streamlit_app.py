@@ -135,7 +135,7 @@ if selected == "Analysis":
             st.pyplot()
 
             st.write('Terlihat bahwa terjadi kenaikan dan penurunan pada setiap penyewaan sepeda, baik itu untuk member ataupun tidak. Tetapi, terlihat bahwa semakin lama, penyewaan sepeda semakin meningkat dari bulan ke bulan, sehingga dapat dikatakan bahwa ada faktor lain yang mempengaruhi peningkatan penyewaan sepeda, seperti advertisement penyewaan sepeda itu dan lainnya.')
-
+            st.set_option('deprecation.showPyplotGlobalUse', False)
         with tab2:
             st.write('Pada tahun 2011-2012, penyewaan sepeda mengalami kenaikan dan penurunan yang fluktuatif. Akan tetapi, terlihat bahwa terdapat perbedaan yang signifikan antara penyewaan sepeda pada tahun 2011 dan 2012. Terdapat kenaikan yang cukup drastis pada penyewaan sepeda dari Februari-Maret 2022 dan mencapai puncaknya pada September 2022. Hal ini dapat terjadi dengan harus dilakukan penelitian lebih lanjut terkait faktor X pada rentang tersebut, seperti musim, suhu, cuaca, holiday, dan sebagainya.')
     elif selected == 'Korelasi terkait waktu terhadap penyewaan sepeda':
